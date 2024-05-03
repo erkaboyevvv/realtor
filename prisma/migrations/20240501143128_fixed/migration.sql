@@ -1,0 +1,6 @@
+-- AlterTable
+ALTER TABLE "realtor" ALTER COLUMN "photo" DROP NOT NULL,
+ALTER COLUMN "login" DROP NOT NULL,
+ALTER COLUMN "password" DROP NOT NULL,
+ALTER COLUMN "is_active" DROP NOT NULL,
+ALTER COLUMN "deactive_date" DROP NOT NULL;

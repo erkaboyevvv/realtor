@@ -1,0 +1,38 @@
+export class CreateObjectDto {
+  'name': string;
+  // 'realtor_id': number;
+  // 'object_type_id': number;
+  // 'resident_type_id': number;
+  // 'object_category_id': number;
+  // 'object_status_id': number;
+  'is_studio': boolean;
+  'floor': number;
+  'floor_in_building': number;
+  'total_area': number;
+  'live_area': number;
+  'kitchen_area': number;
+  'rooms_area': number;
+  'price': number;
+  // 'currency_id': number;
+  'price_per_square': number;
+  'price_type': string;
+  // 'renovation_id': number;
+  // 'windor_side_id': number;
+  // 'room_type_id': number;
+  'is_apartment': boolean;
+  'is_luxury': boolean;
+  'ceiling_height': number;
+  'combined_bath_count': number;
+  'separate_bath_count': number;
+  'loggia_count': number;
+  'loggia_desciption': string;
+  'balcony_count': number;
+  'balcony_description': string;
+  'general_description': string;
+  'cadastral_number': number;
+  'document': string;
+  'layout': string;
+  'fotos': string;
+  'online_show': boolean;
+  'video': string;
+}
